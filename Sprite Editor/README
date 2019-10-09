@@ -1,4 +1,5 @@
 #Commander X16 Sprite Editor
+
 Here's a snapshot and executable of a Commander X16 sprite editor which is built from "C" source files I’ve been developing that runs on the R32 version of the emulator.
 
 The sprite editor is currently limited to 4 color bits per pixel using the standard color palette and sprite dimensions up to 32x32 pixels. I'm considering enhancements including support for 8 color bits per pixel, sprite dimensions up to 64x64 pixels, saving/loading sprites, rotation of sprites, undo/redo of changes to the sprite graphics data in VRAM, and load/edit/save of color palettes.
