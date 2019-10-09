@@ -1,3 +1,5 @@
+# Commander X16 RGB Color Grid
+
 Here's a snapshot and executable of a Commander X16 RGB color grid which was built from C source files and is compatible with Release 32. The green and blue values are the vertical and horizontal components of the color grid respectively, and the entire color grid is updated when the red value is changed.
 
 The green value is selected via the g/G keys or the up/down cursor keys and the blue value is selected via the b/B keys or the right/left cursor keys. The red value is selected via the r/R keys or the +/- keys.
