@@ -50,4 +50,4 @@ I deferred support for saving/loading color palette and sprite data because I'm 
 
 ## Potential Future Enhancements
 
-I'm considering enhancements including support for 8 color bits per pixel, saving/loading of palette and sprite data, rotation of sprites, undo/redo of changes to the sprite graphics data in VRAM.
+I'm considering enhancements including support for 8 color bits per pixel, saving/loading of palette and sprite data, rotation of sprites, and undo/redo of changes to the sprite graphics data in VRAM.
