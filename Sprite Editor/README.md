@@ -12,7 +12,7 @@ The sprite editor provides the ability to export color palette data as well as s
 
 ### Cursor Movement
 
-The arrow keys are used to move the cursor around the sprite pixel edit grid. When width=64 the edit grid can be paged left and rignt using the less-than and greater-than keys ("<" and ">"), and when height=64 the edit grid can be paged up and down using the comma and period keys ("," and ".").
+The arrow keys are used to move the cursor around the sprite pixel edit grid. When width=64 the edit grid can be paged left and right using the less-than and greater-than keys ("<" and ">"), and when height=64 the edit grid can be paged up and down using the comma and period keys ("," and ".").
 
 ### Assigning Colors to Sprite Pixels
 
