@@ -1,6 +1,6 @@
 # Commander X16 Color Palette Editor
 
-Here's a snapshot and executable file of a Commander X16 Color Palette Editor which was built from C source files and is compatible with Release 33.
+This directory contains a snapshot and executable file of a Commander X16 Color Palette Editor which was built from C source files and is compatible with Release 33.
 
 The up/down and left/right cursor keys are used to move between palette entries which are displayed on a color grid. The currently selected palette entry is surrounded by a box in the color grid and is also displayed at the top of the color grid with the associated index and RGB values displayed to the left and the associated palette data displayed to the right. All values are displayed in decimal.
 
