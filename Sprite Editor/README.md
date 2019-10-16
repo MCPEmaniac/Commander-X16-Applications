@@ -1,6 +1,6 @@
 # Commander X16 Sprite Editor
 
-This directory contains a screen snapshot and the executable of a Commander X16 Sprite Editor which is built from "C" source files I’ve been developing that currently runs on Release 33 of the emulator.
+This directory contains a screen snapshot and the executable file of a Commander X16 Sprite Editor which is built from "C" source files I’ve been developing that currently runs on Release 33 of the emulator.
 
 ## Features
 
