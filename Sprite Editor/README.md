@@ -1,6 +1,6 @@
 # Commander X16 Sprite Editor
 
-This directory contains a screen snapshot and the executable file of a Commander X16 Sprite Editor which is built from "C" source files I’ve been developing that currently runs on Release 34 of the emulator.
+This directory contains a screen snapshot and the executable file of a Commander X16 Sprite Editor which is built from "C" source files I’ve been developing that currently runs on Release 37 of the emulator.
 
 ## Features
 
@@ -49,6 +49,8 @@ The SA7 value is based on the enumerated values of the height and width dimensio
 I deferred support for saving/loading palette and sprite data because I'm under the impression the emulator currently doesn't support file I/O, but the BASIC program provides a near-term workaround. The palette and sprite data exported in the BASIC program format can be reloaded into the sprite editor via the following steps: (1) start the emulator using the -echo option; (2) paste the BASIC program into the emulator; (3) execute the RUN command; (4) push the Esc key to quit the running program; (5) execute the NEW command; (6) load the sprite editor; and (7) execute the RUN command. The sprite editor will then pick up the palette data that was loaded into the color palette and sprite data that was loaded into the VERA sprite attribute registers and VRAM by the BASIC program.
 
 The following two steps are an alternative to step (2) above: (2a) paste the BASIC program into a text file; and (2b) use the emulator -bas option to load the program from the text file when starting the emulator. This alternative approach is recommended if you're having problems with the emulator corrupting lines when pasting the BASIC program directly into the emulator.
+
+The palette and sprite data are automatically exported when exiting the sprite editor to avoid accidental loss of data. The exported data can be reloaded before reloading and restarting the sprite editor as described above.
 
 ## Potential Future Enhancements
 
