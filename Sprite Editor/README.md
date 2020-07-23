@@ -50,7 +50,7 @@ I deferred support for saving/loading palette and sprite data because I'm under 
 
 The following two steps are an alternative to step (2) above: (2a) paste the BASIC program into a text file; and (2b) use the emulator -bas option to load the program from the text file when starting the emulator. This alternative approach is recommended if you're having problems with the emulator corrupting lines when pasting the BASIC program directly into the emulator.
 
-The palette and sprite data are automatically exported when exiting the sprite editor to avoid accidental loss of data. The exported data can be reloaded before reloading and restarting the sprite editor as described above.
+The palette and sprite data are automatically exported when exiting the sprite editor to avoid accidental loss of data. The exported data can be recovered before reloading and restarting the sprite editor as described above.
 
 ## Potential Future Enhancements
 
